@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t thejika/thejika:1 .'
+        sh 'docker build -t thejika/sentiment-analysis-frontend .'
       }
     }
     stage('Login') {
